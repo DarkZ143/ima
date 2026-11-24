@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@500;600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"surface-container-high":"#e6e8ea","surface-container-low":"#f2f4f6","on-secondary":"#ffffff","secondary-fixed":"#dbe1ff","primary-fixed-dim":"#b0c9e8","primary-container":"#0f2942","secondary":"#0051d5","on-tertiary-fixed":"#00201d","surface-container":"#eceef0","inverse-primary":"#b0c9e8","surface-variant":"#e0e3e5","tertiary-fixed":"#89f5e7","outline":"#74777e","background":"#f7f9fb","outline-variant":"#c3c6ce","on-primary-container":"#7991af","tertiary-container":"#002e29","secondary-fixed-dim":"#b4c5ff","on-error-container":"#93000a","surface-container-highest":"#e0e3e5","on-tertiary-container":"#269f93","on-secondary-fixed-variant":"#003ea8","surface-dim":"#d8dadc","on-error":"#ffffff","on-surface":"#191c1e","surface":"#f7f9fb","tertiary-fixed-dim":"#6bd8cb","on-primary":"#ffffff","on-surface-variant":"#43474d","error":"#ba1a1a","surface-container-lowest":"#ffffff","secondary-container":"#316bf3","error-container":"#ffdad6","primary-fixed":"#d1e4ff","tertiary":"#001714","on-tertiary":"#ffffff","inverse-on-surface":"#eff1f3","on-primary-fixed-variant":"#314863","on-tertiary-fixed-variant":"#005049","primary":"#001428","on-secondary-container":"#fefcff","surface-bright":"#f7f9fb","on-primary-fixed":"#011d35","surface-tint":"#49607c","on-secondary-fixed":"#00174b","on-background":"#191c1e","inverse-surface":"#2d3133"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"space-md":"1rem","space-sm":"0.5rem","space-2xl":"4rem","margin-mobile":"1.25rem","margin":"3rem","space-xl":"2.5rem","space-xs":"0.25rem","space-lg":"1.5rem","gutter-mobile":"1rem","gutter":"1.5rem"},"fontFamily":{"headline-sm":["Plus Jakarta Sans"],"body-lg":["Inter"],"label-md":["Inter"],"headline-lg-mobile":["Plus Jakarta Sans"],"stat-counter":["Plus Jakarta Sans"],"display-xl":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"label-lg":["Inter"],"display-xl-mobile":["Plus Jakarta Sans"],"body-sm":["Inter"],"body-md":["Inter"]},"fontSize":{"headline-sm":["1.25rem",{"lineHeight":"1.75rem","fontWeight":"600"}],"body-lg":["1.125rem",{"lineHeight":"1.75rem","fontWeight":"400"}],"label-md":["0.75rem",{"lineHeight":"1rem","letterSpacing":"0.03em","fontWeight":"600"}],"headline-lg-mobile":["1.75rem",{"lineHeight":"2.25rem","letterSpacing":"-0.015em","fontWeight":"700"}],"stat-counter":["2.75rem",{"lineHeight":"3rem","letterSpacing":"-0.03em","fontWeight":"800"}],"display-xl":["3.5rem",{"lineHeight":"4.25rem","letterSpacing":"-0.025em","fontWeight":"800"}],"headline-md":["1.5rem",{"lineHeight":"2rem","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-lg":["2.25rem",{"lineHeight":"2.75rem","letterSpacing":"-0.02em","fontWeight":"700"}],"label-lg":["0.875rem",{"lineHeight":"1.25rem","letterSpacing":"0.01em","fontWeight":"600"}],"display-xl-mobile":["2.25rem",{"lineHeight":"2.75rem","letterSpacing":"-0.02em","fontWeight":"800"}],"body-sm":["0.875rem",{"lineHeight":"1.25rem","fontWeight":"400"}],"body-md":["1rem",{"lineHeight":"1.5rem","fontWeight":"400"}]}}}}</script></head><body class="bg-background font-body-md text-on-surface relative overflow-x-hidden selection:bg-secondary-fixed selection:text-on-secondary-fixed"><div class="fixed inset-0 pointer-events-none -z-10 overflow-hidden"><div class="absolute -top-[10%] left-[5%] w-[42rem] h-[42rem] rounded-full bg-secondary-fixed/30 blur-[120px]"></div><div class="absolute top-[25%] -right-[10%] w-[38rem] h-[38rem] rounded-full bg-tertiary-fixed/25 blur-[130px]"></div><div class="absolute bottom-[10%] left-[20%] w-[32rem] h-[32rem] rounded-full bg-primary-fixed/35 blur-[140px]"></div></div><header class="fixed top-0 inset-x-0 z-50"><div class="w-full bg-primary-container/95 text-on-primary-container backdrop-blur-md border-b border-surface-container-lowest/10 shadow-[0_1px_8px_rgba(0,0,0,0.06)]"><div class="max-w-7xl mx-auto px-gutter flex items-center justify-between h-10 font-label-md text-label-md"><div class="flex items-center gap-space-md overflow-hidden"><span class="flex items-center gap-space-xs font-headline-sm text-label-md text-on-primary uppercase tracking-wider bg-error px-2 py-0.5 rounded-full shrink-0"><span class="material-symbols-outlined text-[14px]">campaign</span>National Alert</span><span class="truncate text-surface-container-high">IMA National Headquarters Advisory: Strengthening Clinical Security Protocols Across Healthcare Facilities.</span></div><div class="hidden lg:flex items-center gap-space-lg shrink-0"><div class="flex items-center gap-space-xs text-surface-container-high"><span class="material-symbols-outlined text-[15px]">call</span><span>Helpline: +91-11-23370009</span></div><div class="flex items-center gap-space-xs text-surface-container-high"><span class="material-symbols-outlined text-[15px]">mail</span><span>hq@ima-india.org</span></div><div class="flex items-center gap-space-sm pl-space-md"><a class="text-surface-container-high hover:text-on-primary transition-colors" data-path="legal-cell" href="#">Legal Cell</a><span class="text-outline-variant">•</span><a class="text-surface-container-high hover:text-on-primary transition-colors" data-path="state-branches" href="#">State Directory</a></div></div></div></div><div class="w-full bg-surface-container-lowest/75 backdrop-blur-xl border-b border-surface-container-lowest/80 shadow-[0_8px_32px_rgba(15,41,66,0.06)]"><div class="h-20 max-w-7xl mx-auto px-gutter flex items-center justify-between gap-space-lg"><div class="flex items-center gap-space-md shrink-0"><img alt="Indian Medical Association Crest Logo" class="h-12 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrB0JuekFtHpSFroyuQObdLgyQk7UCb86CYFEN0URRpJMoisV1HGJ7yxVOLJSIup5830v4z_C8dpGDA2H88uw3FhgOtfB_sJtERCHvMSt5igrz3xotnpASSOT_CIcdJq9jqQAXXsTPPoJjOs47gvJ2zr2GpgU7Ud3KwsLoWFhW2cWUsa37VN4ay9yCYCSYEBR2efRlzACZ-0QOZxPArjnX1TICD5QwqqLieO6hGUC19K"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary leading-tight tracking-tight">Indian Medical Association</span><span class="font-label-md text-label-md text-on-surface-variant font-medium tracking-normal">National Headquarters • Established 1928</span></div></div><nav class="hidden xl:flex items-center gap-space-sm px-2 py-1.5 rounded-xl bg-surface-container-low/60 border border-surface-container-lowest/70" data-active-classes="bg-surface-container-lowest text-primary font-bold rounded-lg shadow-sm"><a aria-current="page" class="px-3.5 py-2 transition-all bg-surface-container-lowest text-primary font-bold rounded-lg shadow-sm" data-path="home" href="#">Home</a><a class="px-3.5 py-2 rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-lowest/80 transition-all" data-path="about" href="#">About IMA</a><a class="px-3.5 py-2 rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-lowest/80 transition-all" data-path="wings-schemes" href="#">Wings &amp; Schemes</a><a class="px-3.5 py-2 rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-lowest/80 transition-all" data-path="initiatives" href="#">Initiatives &amp; Publications</a></nav><div class="flex items-center gap-space-sm shrink-0"><a class="hidden sm:inline-flex items-center px-4 py-2.5 rounded-lg bg-surface-container-lowest/80 border border-outline-variant/40 text-primary hover:bg-surface-container-lowest hover:text-on-surface font-label-lg text-label-lg font-semibold transition-all shadow-[0_2px_8px_rgba(15,41,66,0.04)]" data-path="member-login" href="#">Member Portal</a><a class="inline-flex items-center px-5 py-2.5 rounded-lg bg-secondary text-on-secondary hover:bg-primary transition-all font-label-lg text-label-lg font-semibold shadow-[0_6px_20px_rgba(0,81,213,0.28)]" data-path="membership-registration" href="#">Join IMA</a><div class="w-9 h-9 rounded-full bg-primary flex items-center justify-center shadow-sm"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></div></header><main class="w-full pt-[7.5rem] bg-transparent min-h-screen"><div class="flex flex-col w-full">
+<!-- 1. HERO SECTION: Editorial Asymmetric Bento with Floating Roster Lookup -->
+<section class="relative max-w-7xl mx-auto w-full px-gutter pt-space-xl pb-space-2xl">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<!-- Left Column: Editorial Headline & Primary CTAs -->
+<div class="lg:col-span-7 flex flex-col gap-space-lg min-w-0">
+<div class="inline-flex items-center gap-space-sm self-start px-3.5 py-1.5 rounded-full bg-surface-container-lowest/80 backdrop-blur-md shadow-sm">
+<span class="w-2 h-2 rounded-full bg-on-tertiary-container animate-pulse"></span>
+<span class="font-label-md text-label-md text-primary uppercase tracking-wider">National Headquarters • Estd. 1928</span>
+</div>
+<h1 class="font-display-xl text-display-xl text-primary tracking-tight">
+          Voice of <span class="text-secondary">400,000+</span> Doctors Across India
+        </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
+          The largest representative voluntary organization of Doctors of Modern Scientific System of Medicine in the world—championing clinical excellence, medical ethics, and public health leadership since 1928.
+        </p>
+<div class="flex flex-wrap items-center gap-space-md pt-space-xs">
+<a class="inline-flex items-center gap-space-sm px-6 py-3.5 rounded-xl bg-secondary text-on-secondary hover:bg-primary transition-all font-label-lg text-label-lg shadow-xl" href="#">
+<span class="material-symbols-outlined text-[20px]">person_add</span>
+<span>Become an IMA Member</span>
+</a>
+<a class="inline-flex items-center gap-space-sm px-5 py-3.5 rounded-xl bg-surface-container-lowest/85 backdrop-blur-md text-primary hover:bg-surface-container-lowest transition-all font-label-lg text-label-lg shadow-md" href="#roster-lookup">
+<span class="material-symbols-outlined text-[20px] text-on-tertiary-container">verified_user</span>
+<span>Doctor Verification</span>
+</a>
+<a class="inline-flex items-center gap-space-sm px-5 py-3.5 rounded-xl bg-surface-container-low/80 backdrop-blur-md text-on-surface hover:bg-surface-container-lowest transition-all font-label-lg text-label-lg shadow-sm" href="#">
+<span class="material-symbols-outlined text-[20px] text-secondary">menu_book</span>
+<span>Access e-JIMA</span>
+</a>
+</div>
+<!-- Subtle Trust Metadata Strip -->
+<div class="flex flex-wrap items-center gap-space-lg pt-space-md text-on-surface-variant font-label-md text-label-md">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[16px] text-on-tertiary-container" style="font-variation-settings: 'FILL' 1;">public</span>
+<span>Founding Member: WMA &amp; CMAAO</span>
+</div>
+<span>•</span>
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[16px] text-secondary" style="font-variation-settings: 'FILL' 1;">gavel</span>
+<span>24/7 Legal &amp; Defense Cell</span>
+</div>
+</div>
+</div>
+<!-- Right Column: Visual + Floating Glass Roster Lookup Widget -->
+<div class="lg:col-span-5 relative flex flex-col gap-space-md">
+<div class="relative rounded-xl overflow-hidden shadow-xl bg-primary-container">
+<img class="w-full h-72 object-cover opacity-90" data-alt="Modern architectural glass facade of a premier medical headquarters in New Delhi bathed in soft morning sunlight, with subtle clinical cyan and deep navy reflections, clean minimalist lines, photorealistic editorial photography, high resolution" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBXGslheFTh7aLUwapUaQlurzkmLi5HWEtFhL67P7U8vM56C-lPx086a9QTy2xtyaVXEK9nhNeiq-aHPz9LxdqzrTV0SHRVh1wMNuJn9eARKcqGq7ovnpoNfxfvDkkZ9ALO-RniAxTV4286MJT6_BS09eyRDakdYJ2fPToJeK2C2Wuj5yPMjsikPsugklcdR8vwju9juNcde3Q-T4wu71kcZxYRJQ3K66tlPjC7Ufcu"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary via-primary/30 to-transparent"></div>
+<div class="absolute bottom-4 left-4 right-4 flex items-center justify-between text-on-primary">
+<div>
+<span class="font-label-md text-label-md uppercase tracking-wider text-primary-fixed block">IMA House • New Delhi</span>
+<span class="font-headline-sm text-headline-sm">Indraprastha Estate</span>
+</div>
+<span class="px-3 py-1 rounded-full bg-surface-container-lowest/20 backdrop-blur-md font-label-md text-label-md">NHQ Verified</span>
+</div>
+</div>
+<!-- Floating Glass Roster Lookup Widget -->
+<div class="relative -mt-10 mx-3 p-space-lg rounded-xl bg-surface-container-lowest/85 backdrop-blur-xl shadow-xl" id="roster-lookup">
+<div class="flex items-center justify-between mb-space-md">
+<div class="flex items-center gap-space-sm">
+<div class="w-9 h-9 rounded-lg bg-secondary-fixed flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[20px]">badge</span>
+</div>
+<div>
+<h2 class="font-headline-sm text-headline-sm text-primary">Roster Lookup</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Verify active IMA clinician credentials</p>
+</div>
+</div>
+<span class="px-2.5 py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-md text-label-md">Live Registry</span>
+</div>
+<form class="flex flex-col gap-space-sm" id="roster-form">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm">
+<input class="w-full px-3.5 py-2.5 rounded-lg bg-surface-container-low/80 text-on-surface placeholder:text-outline font-body-sm text-body-sm focus:outline-none focus:bg-surface-container-lowest transition-all" id="roster-query" placeholder="Doctor Name or IMA ID..." type="text"/>
+<select class="w-full px-3.5 py-2.5 rounded-lg bg-surface-container-low/80 text-on-surface font-body-sm text-body-sm focus:outline-none focus:bg-surface-container-lowest transition-all" id="roster-state">
+<option value="All States">All State Branches (33+)</option>
+<option value="Delhi">Delhi State Branch</option>
+<option value="Maharashtra">Maharashtra State Branch</option>
+<option value="Kerala">Kerala State Branch</option>
+<option value="Tamil Nadu">Tamil Nadu State Branch</option>
+<option value="Gujarat">Gujarat State Branch</option>
+</select>
+</div>
+<button class="w-full py-2.5 px-4 rounded-lg bg-primary text-on-primary hover:bg-secondary transition-all font-label-lg text-label-lg flex items-center justify-center gap-space-xs shadow-md" type="submit">
+<span class="material-symbols-outlined text-[18px]">search</span>
+<span>Verify Clinician</span>
+</button>
+</form>
+<div class="hidden mt-space-md p-space-md rounded-lg bg-tertiary-fixed/40 text-on-tertiary-fixed flex items-center justify-between gap-space-sm" id="roster-result">
+<div class="flex items-center gap-space-sm min-w-0">
+<span class="material-symbols-outlined text-on-tertiary-container" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<div class="min-w-0">
+<p class="font-label-lg text-label-lg truncate" id="roster-result-name">Dr. Verified Member</p>
+<p class="font-body-sm text-body-sm text-on-tertiary-fixed-variant truncate" id="roster-result-meta">Active Life Member • Good Standing</p>
+</div>
+</div>
+<span class="font-label-md text-label-md uppercase shrink-0 px-2 py-0.5 rounded bg-surface-container-lowest/80 text-primary">Verified</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 2. 4-COLUMN BENTO STAT STRIP -->
+<section class="max-w-7xl mx-auto w-full px-gutter pb-space-2xl">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Stat 1 -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest/75 backdrop-blur-xl shadow-md hover:shadow-xl transition-all flex flex-col justify-between gap-space-md">
+<div class="flex items-center justify-between">
+<div class="w-11 h-11 rounded-xl bg-secondary-fixed/70 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[24px]">groups</span>
+</div>
+<span class="inline-flex items-center gap-1 font-label-md text-label-md text-on-tertiary-container bg-tertiary-fixed/60 px-2.5 py-1 rounded-full">
+<span class="material-symbols-outlined text-[14px]">trending_up</span>
+            +4.2% YoY
+          </span>
+</div>
+<div>
+<div class="font-stat-counter text-stat-counter text-primary">400K+</div>
+<div class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider mt-1">Registered Doctors</div>
+</div>
+<svg class="w-full h-6 text-on-tertiary-container" fill="none" viewbox="0 0 120 24">
+<path d="M2 20 Q 25 18, 45 13 T 85 8 T 118 3" stroke="currentColor" stroke-linecap="round" stroke-width="2.5"></path>
+</svg>
+</div>
+<!-- Stat 2 -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest/75 backdrop-blur-xl shadow-md hover:shadow-xl transition-all flex flex-col justify-between gap-space-md">
+<div class="flex items-center justify-between">
+<div class="w-11 h-11 rounded-xl bg-primary-fixed/70 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[24px]">account_balance</span>
+</div>
+<span class="inline-flex items-center gap-1 font-label-md text-label-md text-on-tertiary-container bg-tertiary-fixed/60 px-2.5 py-1 rounded-full">
+<span class="material-symbols-outlined text-[14px]">trending_up</span>
+            Pan-India
+          </span>
+</div>
+<div>
+<div class="font-stat-counter text-stat-counter text-primary">33+</div>
+<div class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider mt-1">State &amp; UT Branches</div>
+</div>
+<div class="w-full h-1.5 rounded-full bg-surface-container-high overflow-hidden">
+<div class="h-full w-11/12 bg-secondary rounded-full"></div>
+</div>
+</div>
+<!-- Stat 3 -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest/75 backdrop-blur-xl shadow-md hover:shadow-xl transition-all flex flex-col justify-between gap-space-md">
+<div class="flex items-center justify-between">
+<div class="w-11 h-11 rounded-xl bg-tertiary-fixed/70 flex items-center justify-center text-on-tertiary-fixed-variant">
+<span class="material-symbols-outlined text-[24px]">hub</span>
+</div>
+<span class="inline-flex items-center gap-1 font-label-md text-label-md text-on-tertiary-container bg-tertiary-fixed/60 px-2.5 py-1 rounded-full">
+<span class="material-symbols-outlined text-[14px]">trending_up</span>
+            Active Network
+          </span>
+</div>
+<div>
+<div class="font-stat-counter text-stat-counter text-primary">1,750+</div>
+<div class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider mt-1">Local Chapters</div>
+</div>
+<div class="w-full h-1.5 rounded-full bg-surface-container-high overflow-hidden">
+<div class="h-full w-4/5 bg-on-tertiary-container rounded-full"></div>
+</div>
+</div>
+<!-- Stat 4 -->
+<div class="p-space-lg rounded-xl bg-primary-container text-on-primary shadow-md hover:shadow-xl transition-all flex flex-col justify-between gap-space-md">
+<div class="flex items-center justify-between">
+<div class="w-11 h-11 rounded-xl bg-surface-container-lowest/15 flex items-center justify-center text-primary-fixed">
+<span class="material-symbols-outlined text-[24px]">workspace_premium</span>
+</div>
+<span class="inline-flex items-center gap-1 font-label-md text-label-md text-tertiary-fixed bg-surface-container-lowest/10 px-2.5 py-1 rounded-full">
+            Since 1928
+          </span>
+</div>
+<div>
+<div class="font-stat-counter text-stat-counter text-on-primary">96+</div>
+<div class="font-label-md text-label-md text-primary-fixed uppercase tracking-wider mt-1">Years of Leadership</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-primary-container">Safeguarding modern medicine &amp; clinician welfare.</p>
+</div>
+</div>
+</section>
+<!-- 3. TABBED 'ANNOUNCEMENTS & GAZETTED BULLETINS' + LEADERSHIP SPOTLIGHT -->
+<section class="max-w-7xl mx-auto w-full px-gutter pb-space-2xl">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter">
+<!-- Left 8 Columns: Tabbed Bulletins -->
+<div class="lg:col-span-8 p-space-xl rounded-xl bg-surface-container-lowest/80 backdrop-blur-xl shadow-lg flex flex-col gap-space-lg">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-md">
+<div>
+<span class="font-label-md text-label-md text-secondary uppercase tracking-wider">Official NHQ Feed</span>
+<h2 class="font-headline-lg text-headline-lg text-primary">Announcements &amp; Gazetted Bulletins</h2>
+</div>
+<!-- Segmented Pill Controller -->
+<div class="inline-flex p-1 rounded-xl bg-surface-container-low self-start" role="tablist">
+<button class="bulletin-tab px-4 py-2 rounded-lg font-label-lg text-label-lg bg-surface-container-lowest text-primary shadow-sm transition-all" data-tab="news">
+              Important News
+            </button>
+<button class="bulletin-tab px-4 py-2 rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-all" data-tab="press">
+              Press Releases
+            </button>
+<button class="bulletin-tab px-4 py-2 rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-all" data-tab="events">
+              Upcoming Events
+            </button>
+</div>
+</div>
+<!-- Tab Panel: Important News -->
+<div class="bulletin-panel flex flex-col gap-space-sm" id="tab-news">
+<a class="group p-space-md rounded-xl bg-surface-container-low/60 hover:bg-surface-container-lowest transition-all flex items-center justify-between gap-space-md shadow-sm" href="#">
+<div class="flex items-start gap-space-md min-w-0">
+<div class="w-10 h-10 rounded-lg bg-secondary-fixed flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined text-[20px]">emoji_events</span>
+</div>
+<div class="min-w-0">
+<div class="flex items-center gap-space-sm mb-1">
+<span class="px-2 py-0.5 rounded-full bg-secondary text-on-secondary font-label-md text-label-md">2026 Notification</span>
+<span class="font-label-md text-label-md text-on-surface-variant">Gazetted PDF</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors truncate">IMA National Award Notification-2026</h3>
+</div>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-secondary group-hover:translate-x-1 transition-all shrink-0">arrow_forward</span>
+</a>
+<a class="group p-space-md rounded-xl bg-surface-container-low/60 hover:bg-surface-container-lowest transition-all flex items-center justify-between gap-space-md shadow-sm" href="#">
+<div class="flex items-start gap-space-md min-w-0">
+<div class="w-10 h-10 rounded-lg bg-tertiary-fixed flex items-center justify-center text-on-tertiary-fixed-variant shrink-0">
+<span class="material-symbols-outlined text-[20px]">vaccines</span>
+</div>
+<div class="min-w-0">
+<div class="flex items-center gap-space-sm mb-1">
+<span class="px-2 py-0.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-md text-label-md">National Drive</span>
+<span class="font-label-md text-label-md text-on-surface-variant">2026</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors truncate">Indian Immunization Week 2026</h3>
+</div>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-secondary group-hover:translate-x-1 transition-all shrink-0">arrow_forward</span>
+</a>
+<a class="group p-space-md rounded-xl bg-surface-container-low/60 hover:bg-surface-container-lowest transition-all flex items-center justify-between gap-space-md shadow-sm" href="#">
+<div class="flex items-start gap-space-md min-w-0">
+<div class="w-10 h-10 rounded-lg bg-primary-fixed flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[20px]">description</span>
+</div>
+<div class="min-w-0">
+<div class="flex items-center gap-space-sm mb-1">
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md">2026-01-19</span>
+<span class="font-label-md text-label-md text-on-surface-variant">JIMA</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors truncate">Tender Notice for JIMA 2026</h3>
+</div>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-secondary group-hover:translate-x-1 transition-all shrink-0">arrow_forward</span>
+</a>
+<a class="group p-space-md rounded-xl bg-surface-container-low/60 hover:bg-surface-container-lowest transition-all flex items-center justify-between gap-space-md shadow-sm" href="#">
+<div class="flex items-start gap-space-md min-w-0">
+<div class="w-10 h-10 rounded-lg bg-secondary-fixed/70 flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined text-[20px]">how_to_vote</span>
+</div>
+<div class="min-w-0">
+<div class="flex items-center gap-space-sm mb-1">
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md">Official Result</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors truncate">Result - IMA Elections 2026-2028</h3>
+</div>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-secondary group-hover:translate-x-1 transition-all shrink-0">arrow_forward</span>
+</a>
+</div>
+<!-- Tab Panel: Press Releases (Hidden by default) -->
+<div class="bulletin-panel hidden flex-col gap-space-sm" id="tab-press">
+<a class="group p-space-md rounded-xl bg-surface-container-low/60 hover:bg-surface-container-lowest transition-all flex items-center justify-between gap-space-md shadow-sm" href="#">
+<div class="flex items-start gap-space-md min-w-0">
+<div class="w-10 h-10 rounded-lg bg-error-container flex items-center justify-center text-error shrink-0">
+<span class="material-symbols-outlined text-[20px]">campaign</span>
+</div>
+<div class="min-w-0">
+<span class="font-label-md text-label-md text-error uppercase">Urgent Memorandum</span>
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors truncate">Press Release - IMA Demands Central Law for Healthcare Protection</h3>
+</div>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-secondary group-hover:translate-x-1 transition-all shrink-0">arrow_forward</span>
+</a>
+<a class="group p-space-md rounded-xl bg-surface-container-low/60 hover:bg-surface-container-lowest transition-all flex items-center justify-between gap-space-md shadow-sm" href="#">
+<div class="flex items-start gap-space-md min-w-0">
+<div class="w-10 h-10 rounded-lg bg-secondary-fixed flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined text-[20px]">policy</span>
+</div>
+<div class="min-w-0">
+<span class="font-label-md text-label-md text-on-surface-variant">Parliamentary Committee</span>
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors truncate">IMA's Response to 176th Report of Parliamentary Standing Committee</h3>
+</div>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-secondary group-hover:translate-x-1 transition-all shrink-0">arrow_forward</span>
+</a>
+<a class="group p-space-md rounded-xl bg-surface-container-low/60 hover:bg-surface-container-lowest transition-all flex items-center justify-between gap-space-md shadow-sm" href="#">
+<div class="flex items-start gap-space-md min-w-0">
+<div class="w-10 h-10 rounded-lg bg-tertiary-fixed flex items-center justify-center text-on-tertiary-fixed-variant shrink-0">
+<span class="material-symbols-outlined text-[20px]">medication</span>
+</div>
+<div class="min-w-0">
+<span class="font-label-md text-label-md text-on-surface-variant">AMR Initiative</span>
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors truncate">Press Release regarding Antimicrobial Resistance (AMR) Stewardship</h3>
+</div>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-secondary group-hover:translate-x-1 transition-all shrink-0">arrow_forward</span>
+</a>
+</div>
+<!-- Tab Panel: Upcoming Events (Hidden by default) -->
+<div class="bulletin-panel hidden flex-col gap-space-sm" id="tab-events">
+<a class="group p-space-md rounded-xl bg-surface-container-low/60 hover:bg-surface-container-lowest transition-all flex items-center justify-between gap-space-md shadow-sm" href="#">
+<div class="flex items-start gap-space-md min-w-0">
+<div class="w-10 h-10 rounded-lg bg-secondary-fixed flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined text-[20px]">school</span>
+</div>
+<div class="min-w-0">
+<span class="font-label-md text-label-md text-secondary">Online Certification</span>
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors truncate">IMA AMR Online Certificate Course — Open for Registration</h3>
+</div>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-secondary group-hover:translate-x-1 transition-all shrink-0">arrow_forward</span>
+</a>
+<a class="group p-space-md rounded-xl bg-surface-container-low/60 hover:bg-surface-container-lowest transition-all flex items-center justify-between gap-space-md shadow-sm" href="#">
+<div class="flex items-start gap-space-md min-w-0">
+<div class="w-10 h-10 rounded-lg bg-primary-fixed flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[20px]">event</span>
+</div>
+<div class="min-w-0">
+<span class="font-label-md text-label-md text-on-surface-variant">National Conclave</span>
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors truncate">Meeting of All Wings, Schemes &amp; Standing Committees</h3>
+</div>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-secondary group-hover:translate-x-1 transition-all shrink-0">arrow_forward</span>
+</a>
+<a class="group p-space-md rounded-xl bg-surface-container-low/60 hover:bg-surface-container-lowest transition-all flex items-center justify-between gap-space-md shadow-sm" href="#">
+<div class="flex items-start gap-space-md min-w-0">
+<div class="w-10 h-10 rounded-lg bg-tertiary-fixed flex items-center justify-center text-on-tertiary-fixed-variant shrink-0">
+<span class="material-symbols-outlined text-[20px]">health_and_safety</span>
+</div>
+<div class="min-w-0">
+<span class="font-label-md text-label-md text-on-surface-variant">Public Health</span>
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors truncate">Unified Consensus on Adult Immunization 2026</h3>
+</div>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-secondary group-hover:translate-x-1 transition-all shrink-0">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Right 4 Columns: IMA Office Bearers 2026 Spotlight -->
+<div class="lg:col-span-4 p-space-xl rounded-xl bg-surface-container-lowest/80 backdrop-blur-xl shadow-lg flex flex-col justify-between gap-space-lg">
+<div>
+<span class="font-label-md text-label-md text-on-tertiary-container uppercase tracking-wider">Leadership 2026</span>
+<h2 class="font-headline-md text-headline-md text-primary mt-1">IMA Office Bearers</h2>
+</div>
+<div class="flex flex-col gap-space-md">
+<div class="p-space-md rounded-xl bg-surface-container-low/70 flex items-center gap-space-md">
+<img class="w-14 h-14 rounded-full object-cover shrink-0 shadow-sm" data-alt="Distinguished senior Indian male physician in a tailored dark navy blazer with stethoscope, warm authoritative expression, soft studio lighting against a clean clinical light gray backdrop, editorial portrait photography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCZzD2qMWCyC9Cc-k4uvsnA6Llil9khh6pSybkRdtM2uNQX8LRiCn9NA0QLCMUL8BnVis9e_14_GiGi9cYC2LNC-QtVQwzdXbUPWmKM7Bdourk6TrJXcKLlzcn9Ke5EdCr1z5nZxasKD_hwmLVsOhXKuH2ENxFI7l4ptiAFQZaS5_56RX7R6o-z5YHRBA_AEcjSBCGbPf9Dw0C_3D0YhYo7l_VKCOQgdnIpWfkBlidM"/>
+<div class="min-w-0">
+<h3 class="font-headline-sm text-headline-sm text-primary truncate">Dr AnilKumar J. Nayak</h3>
+<p class="font-label-md text-label-md text-secondary">National President</p>
+</div>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-low/70 flex items-center gap-space-md">
+<img class="w-14 h-14 rounded-full object-cover shrink-0 shadow-sm" data-alt="Experienced Indian male doctor wearing formal glasses and a crisp white coat over a navy suit, confident calm demeanor, soft diffused studio portrait lighting, clean minimal background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDvWtAaHnXfm7W16CxCSC8fureFNBKHNwryHMH6_DDWgMWqweWVj2-XmESgtvcaBmwrEpNDXy0_ykX6ZQAuSOa_EeHearpT4JMwBF8cuaWMVNa-N3W-DbbDoO8ykfq2CG7-6h-iElKdQKiGnLvtcT_2WBhBSCwzWeCujTkUbiA1BHs4YRhNLoJpBumrT69fxUw4GT4s_jnUJvxNLJ8mGaV0ltI4Q9Ra9Nf5q4_-Wf-F"/>
+<div class="min-w-0">
+<h3 class="font-headline-sm text-headline-sm text-primary truncate">Dr Dilip Bhanushali</h3>
+<p class="font-label-md text-label-md text-on-surface-variant">Immediate Past National President</p>
+</div>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-low/70 flex items-center gap-space-md">
+<img class="w-14 h-14 rounded-full object-cover shrink-0 shadow-sm" data-alt="Senior Indian female medical leader in professional formal attire, poised and trustworthy expression, soft natural studio lighting with subtle cool clinical tones, editorial portrait" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCVzPYPuueO5Zf6cIDUHom1rbKIQOXy2RThPqHG9GR4m8ImiFXda2hfDYNh9ThRpN_q-hIcKa-VWaEt7Qbtl_JyJLaNhoUTYhU7m7daWgu0rXxEyDPCRnhAfDMGlG92W5Scn9Y7IG4sdcvPo_R3mnbhutzeSgrbcqoKbd9sG2lDwHAKtUG_PNtPHPXhv31hz6VIetqaejL8-mfYqujb-s9mjdqAmmn6NrRDRPXekicc"/>
+<div class="min-w-0">
+<h3 class="font-headline-sm text-headline-sm text-primary truncate">Dr Sarbari Dutta</h3>
+<p class="font-label-md text-label-md text-on-tertiary-container">Hony. Secretary General</p>
+</div>
+</div>
+</div>
+<a class="w-full py-2.5 px-4 rounded-lg bg-surface-container-low hover:bg-primary hover:text-on-primary text-primary transition-all font-label-lg text-label-lg text-center" href="#">
+          View Full Council
+        </a>
+</div>
+</div>
+</section>
+<!-- 4. COMPACT 'ESSENTIAL DOCTOR UTILITY PORTALS' BENTO ROW -->
+<section class="max-w-7xl mx-auto w-full px-gutter pb-space-xl">
+<div class="flex items-end justify-between mb-space-lg">
+<div>
+<span class="font-label-md text-label-md text-secondary uppercase tracking-wider">Digital IMA</span>
+<h2 class="font-headline-lg text-headline-lg text-primary">Essential Doctor Utility Portals</h2>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Utility 1 -->
+<a class="group p-space-lg rounded-xl bg-surface-container-lowest/80 backdrop-blur-xl shadow-md hover:shadow-xl hover:-translate-y-1 transition-all flex flex-col gap-space-md" href="#">
+<div class="w-12 h-12 rounded-xl bg-secondary-fixed flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-on-secondary transition-colors">
+<span class="material-symbols-outlined text-[24px]">badge</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-primary">Digital ID-Card</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Download your verified national IMA membership card instantly.</p>
+</div>
+<span class="font-label-md text-label-md text-secondary inline-flex items-center gap-1 mt-auto">
+          Access Portal <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</span>
+</a>
+<!-- Utility 2 -->
+<a class="group p-space-lg rounded-xl bg-surface-container-lowest/80 backdrop-blur-xl shadow-md hover:shadow-xl hover:-translate-y-1 transition-all flex flex-col gap-space-md" href="#">
+<div class="w-12 h-12 rounded-xl bg-tertiary-fixed flex items-center justify-center text-on-tertiary-fixed-variant group-hover:bg-on-tertiary-container group-hover:text-on-tertiary transition-colors">
+<span class="material-symbols-outlined text-[24px]">workspace_premium</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-primary">Certificate of Good Standing</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Request official IMA verification &amp; standing certificates.</p>
+</div>
+<span class="font-label-md text-label-md text-on-tertiary-container inline-flex items-center gap-1 mt-auto">
+          Request Certificate <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</span>
+</a>
+<!-- Utility 3 -->
+<a class="group p-space-lg rounded-xl bg-surface-container-lowest/80 backdrop-blur-xl shadow-md hover:shadow-xl hover:-translate-y-1 transition-all flex flex-col gap-space-md" href="#">
+<div class="w-12 h-12 rounded-xl bg-primary-fixed flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[24px]">manage_accounts</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-primary">Profile &amp; CME Credits</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Update practice details and track accredited CME hours.</p>
+</div>
+<span class="font-label-md text-label-md text-primary inline-flex items-center gap-1 mt-auto">
+          Update Profile <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</span>
+</a>
+<!-- Utility 4 -->
+<a class="group p-space-lg rounded-xl bg-surface-container-lowest/80 backdrop-blur-xl shadow-md hover:shadow-xl hover:-translate-y-1 transition-all flex flex-col gap-space-md" href="#">
+<div class="w-12 h-12 rounded-xl bg-secondary-fixed/60 flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-on-secondary transition-colors">
+<span class="material-symbols-outlined text-[24px]">work</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-primary">IMA Careers</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Explore clinical placements, fellowships, and hospital openings.</p>
+</div>
+<span class="font-label-md text-label-md text-secondary inline-flex items-center gap-1 mt-auto">
+          Explore Opportunities <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</span>
+</a>
+</div>
+</section>
+<script>
+    (function () {
+      const tabs = document.querySelectorAll('.bulletin-tab');
+      const panels = document.querySelectorAll('.bulletin-panel');
+
+      tabs.forEach((tab) => {
+        tab.addEventListener('click', () => {
+          const target = tab.getAttribute('data-tab');
+          tabs.forEach((t) => {
+            t.classList.remove('bg-surface-container-lowest', 'text-primary', 'shadow-sm');
+            t.classList.add('text-on-surface-variant');
+          });
+          tab.classList.add('bg-surface-container-lowest', 'text-primary', 'shadow-sm');
+          tab.classList.remove('text-on-surface-variant');
+
+          panels.forEach((p) => {
+            if (p.id === 'tab-' + target) {
+              p.classList.remove('hidden');
+              p.classList.add('flex');
+            } else {
+              p.classList.add('hidden');
+              p.classList.remove('flex');
+            }
+          });
+        });
+      });
+
+      const rosterForm = document.getElementById('roster-form');
+      const rosterResult = document.getElementById('roster-result');
+      const rosterQuery = document.getElementById('roster-query');
+      const rosterState = document.getElementById('roster-state');
+      const rosterName = document.getElementById('roster-result-name');
+      const rosterMeta = document.getElementById('roster-result-meta');
+
+      if (rosterForm) {
+        rosterForm.addEventListener('submit', (e) => {
+          e.preventDefault();
+          const q = (rosterQuery.value || '').trim() || 'Dr. A. K. Sharma';
+          const st = rosterState.value || 'All States';
+          rosterName.textContent = q;
+          rosterMeta.textContent = 'Active Life Member • ' + st + ' • Good Standing';
+          rosterResult.classList.remove('hidden');
+        });
+      }
+    })();
+  </script>
+</div></main><footer class="w-full bg-surface-container-lowest/70 backdrop-blur-xl border-t border-surface-container-lowest/80 mt-space-2xl shadow-[0_-8px_32px_rgba(15,41,66,0.06)]"><div class="max-w-7xl mx-auto px-gutter pt-space-2xl pb-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-gutter"><div class="lg:col-span-4 flex flex-col gap-space-md"><div class="flex items-center gap-space-sm"><img alt="Indian Medical Association Footer Emblem" class="h-10 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrB0JuekFtHpSFroyuQObdLgyQk7UCb86CYFEN0URRpJMoisV1HGJ7yxVOLJSIup5830v4z_C8dpGDA2H88uw3FhgOtfB_sJtERCHvMSt5igrz3xotnpASSOT_CIcdJq9jqQAXXsTPPoJjOs47gvJ2zr2GpgU7Ud3KwsLoWFhW2cWUsa37VN4ay9yCYCSYEBR2efRlzACZ-0QOZxPArjnX1TICD5QwqqLieO6hGUC19K"/><span class="font-headline-sm text-headline-sm text-primary font-bold">IMA Headquarters</span></div><p class="font-body-sm text-body-sm text-on-surface-variant max-w-sm">The largest representative voluntary organization of Doctors of Modern Scientific System of Medicine in the world, safeguarding healthcare and clinician welfare across India.</p><div class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface-variant"><span class="font-semibold text-on-surface">IMA House, Indraprastha Estate</span><span>Marg, Near ITO, New Delhi - 110002, India</span><span>EPABX: +91-11-23370009 / 23378864</span><span>General Inquiries: ima@ima-india.org</span></div></div><div class="lg:col-span-2 flex flex-col gap-space-sm"><h3 class="font-label-lg text-label-lg font-bold text-on-surface uppercase tracking-wider">About IMA</h3><ul class="flex flex-col gap-space-xs font-body-sm text-body-sm"><li class="text-on-surface-variant">Leadership &amp; Council</li><li class="text-on-surface-variant">Constitution &amp; By-Laws</li><li class="text-on-surface-variant">Past Presidents Archive</li><li class="text-on-surface-variant">National Awards</li><li class="text-on-surface-variant">IMA Headquarters Team</li></ul></div><div class="lg:col-span-3 flex flex-col gap-space-sm"><h3 class="font-label-lg text-label-lg font-bold text-on-surface uppercase tracking-wider">Wings &amp; Standing Schemes</h3><ul class="flex flex-col gap-space-xs font-body-sm text-body-sm"><li class="text-on-surface-variant">IMA College of General Practitioners</li><li class="text-on-surface-variant">IMA Academy of Medical Specialties</li><li class="text-on-surface-variant">National Social Security Scheme</li><li class="text-on-surface-variant">IMA Junior Doctors Network</li><li class="text-on-surface-variant">IMA Women Doctors Wing</li></ul></div><div class="lg:col-span-3 flex flex-col gap-space-md"><h3 class="font-label-lg text-label-lg font-bold text-on-surface uppercase tracking-wider">Global Accreditations</h3><p class="font-body-sm text-body-sm text-on-surface-variant">Founding member of the World Medical Association (WMA) and Confederation of Medical Associations in Asia and Oceania (CMAAO).</p><div class="p-space-md rounded-xl bg-surface-container-low/70 backdrop-blur-md border border-surface-container-lowest/80 shadow-[0_4px_16px_rgba(15,41,66,0.04)]"><span class="font-label-md text-label-md uppercase tracking-wider text-secondary font-bold block mb-1">Legal &amp; Defense Cell</span><p class="font-body-sm text-body-sm text-on-surface">24/7 Rapid response legal council for verified active members in clinical dispute.</p></div></div></div><div class="mt-space-xl pt-space-lg border-t border-outline-variant/25 flex flex-col md:flex-row items-center justify-between gap-space-md"><div class="flex flex-wrap items-center gap-space-md font-body-sm text-body-sm text-on-surface-variant"><span>© 2025 Indian Medical Association. All Rights Reserved.</span><span>•</span><span>Privacy Policy</span><span>•</span><span>Terms of Service</span><span>•</span><span>RTI Act Disclosures</span></div><div class="flex items-center gap-space-sm font-label-md text-label-md text-on-surface-variant"><span class="w-2.5 h-2.5 rounded-full bg-on-tertiary-container animate-pulse"></span><span>NHQ Digital Systems Verified</span></div></div></div></footer></body></html>
